@@ -84,6 +84,7 @@ ul.dropdown-menu {
     margin-left: .2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 /* HEADER END */
 
 /* PHONE NAV START  */
@@ -98,6 +99,7 @@ ul.dropdown-menu {
     color: white;
     margin: 0 1.5rem;
 }
+
 /* PHONE NAV END  */
 
 /* FIRST DIV */
@@ -113,7 +115,8 @@ ul.dropdown-menu {
     font-family: 'DM Serif Display', serif;
 }
 
-.first-div-sub-header {
+.first-div-sub-header-span0,
+.first-div-sub-header-span1 {
     font-size: 1rem;
     background-color: white;
     border-radius: 6px;
@@ -122,6 +125,7 @@ ul.dropdown-menu {
     padding: 0 .5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 /* FIRST DIV END */
 
 /* SECOND DIV START  */
@@ -329,6 +333,7 @@ ul.dropdown-menu {
 .s7 {
     background: #3f51b5;
 }
+
 /* CAROUSEL */
 /* FORTH DIV END  */
 
@@ -359,6 +364,7 @@ ul.dropdown-menu {
     width: 80%;
     padding: 2rem 0 0 10%;
 }
+
 /* FIFTH DIV END  */
 
 /* SIXTH DIV START */
@@ -642,6 +648,7 @@ form {
     color: var(--secondary-color);
     margin: 0 .1rem;
 }
+
 /* DEVELOPER DETAILS END  */
 /* FOOTER END  */
 
@@ -720,6 +727,7 @@ form {
         margin-left: .2rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+
     /* header end */
 
     /* FIRST DIV */
@@ -734,6 +742,17 @@ form {
         font-weight: 700;
         font-family: 'DM Serif Display', serif;
         letter-spacing: .2rem;
+    }
+
+    .first-div-sub-header-span0,
+    .first-div-sub-header-span1 {
+        font-size: 1rem;
+        background-color: transparent;
+        border-radius: 6px;
+        font-weight: 500;
+        display: inline;
+        padding: 0;
+        box-shadow: none;
     }
 
     .first-div-sub-header {
@@ -991,6 +1010,7 @@ form {
         width: 70%;
         padding: 5% 0;
     }
+
     /* FIFTH DIV END  */
 
     /* SIXTH DIV START */
@@ -1287,4 +1307,5 @@ form {
     /* DEVELOPER DETAILS END  */
     /* FOOTER END  */
 }
+
 /* PC MEDIA QUERY END  */

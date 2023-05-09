@@ -55,6 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// CONTACT START 
+$(".form-submit-btn").on('click', function() {
+  alert("Your message would be sent via mail");
+  location.reload();
+});
+// CONTACT END 
+
 // RESUME START 
 $(".resume-div").slideUp();
 $(".resume-link").on("click", function () {
