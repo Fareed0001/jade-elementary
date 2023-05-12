@@ -121,7 +121,7 @@ ul.dropdown-menu {
     background-color: white;
     border-radius: 6px;
     font-weight: 500;
-    display: inline;
+    display: inline-block;
     padding: 0 .5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -200,7 +200,6 @@ ul.dropdown-menu {
     color: var(--secondary-color);
     font-weight: 600;
 }
-
 /* SECOND DIV END  */
 
 /* THIRD DIV START  */
@@ -253,7 +252,6 @@ ul.dropdown-menu {
     background-color: white;
     color: var(--tertiary-color);
 }
-
 /* THIRD DIV END */
 
 /* FORTH DIV START  */
