@@ -63,18 +63,15 @@ $(".form-submit-btn").on('click', function() {
 // CONTACT END 
 
 // RESUME START 
-$(".resume-div").slideUp();
-$(".resume-link").on("click", function () {
-  $(".resume-div").slideDown();
+$(".resume-div").css({"height" : "30rem", "overflow" : "hidden"});
+$(".resume-link, .resume-top-header, .resume-icon").on("click", function () {
+  $(".resume-div").css({"height" : "100%", "overflow" : "hidden"});
 });
 
 $(".resume-close-icon").on("click", function () {
-  $(".resume-div").slideUp();
-})
-
-// PHONE RESUME START
-$(".resume-icon").on("click", function () {
-  $(".resume-div").slideToggle();
+  $(".resume-div").css({"height" : "30rem", "overflow" : "hidden"});
+  $('html, body').animate({
+    scrollTop: $("#third-div").offset().top
+  }, 0); // Adjust the duration as needed
 });
-// PHONE RESUME START
 // RESUME END 

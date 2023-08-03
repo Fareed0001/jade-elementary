@@ -200,6 +200,7 @@ ul.dropdown-menu {
     color: var(--secondary-color);
     font-weight: 600;
 }
+
 /* SECOND DIV END  */
 
 /* THIRD DIV START  */
@@ -252,6 +253,7 @@ ul.dropdown-menu {
     background-color: white;
     color: var(--tertiary-color);
 }
+
 /* THIRD DIV END */
 
 /* FORTH DIV START  */
@@ -587,6 +589,17 @@ form {
     text-align: justify;
 }
 
+.resume-top-icon {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.resume-top-header {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 0 2% 3%;
+}
+
 .resume-header {
     font-weight: 700;
 }
@@ -621,6 +634,9 @@ form {
     color: var(--tertiary-color);
     font-size: 1.5rem;
     cursor: pointer;
+    display: block;
+    margin: 0;
+    overflow: visible;
 }
 
 .resume-close-icon:hover {
@@ -1233,6 +1249,12 @@ form {
         text-align: left;
     }
 
+    .resume-top-header {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin: 0 0 2% 1%;
+    }
+
     .resume-header {
         font-weight: 700;
     }
@@ -1261,16 +1283,6 @@ form {
 
     .resume-close {
         text-align: center;
-    }
-
-    .resume-close-icon {
-        color: var(--tertiary-color);
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-    .resume-close-icon:hover {
-        color: var(--secondary-color);
     }
 
     /* RESUME END  */
